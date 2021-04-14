@@ -35,3 +35,14 @@ main section p {
     margin: 1em;
     
 }
+
+main section .author-container{
+    width: 100%; 
+   
+}
+main section .author{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto 2em .5em;
+   
+}
