@@ -53,4 +53,15 @@ main section .author{
 main section div figure img {
     width: 80px;
 }
+main section .card-footer {
+    background-color: #53354a;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+main section .card-footer a  {
+cursor: pointer; 
+}
+
 
