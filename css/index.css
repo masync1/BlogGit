@@ -22,7 +22,9 @@ body {
     
 }
 
-.card .card-divider {  
+.card .card-divider { 
+    display: grid; 
+    grid-template-columns: 10% 80%;
     width: 100%;
     height: 30px;
     background-color: #e84545;
@@ -48,4 +50,7 @@ main section .author{
    
 }
 
+main section div figure img {
+    width: 80px;
+}
 
